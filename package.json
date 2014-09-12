@@ -1,5 +1,5 @@
 {
-  "name": "helpful",
+  "name": "helpful-client",
   "version": "1.0.0",
   "description": "Official Helpful API library client for node.js",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://assemblymade.com/helpful)",
