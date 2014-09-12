@@ -132,7 +132,7 @@ var accounts = client.accounts();
 All the accounts the user has access to
 
 ```js
-accounts.list(options, callback);
+accounts.all(options, callback);
 ```
 
 ##### Retrieve an account (GET /accounts/:account_id)
@@ -176,7 +176,7 @@ The following arguments are required:
  * __account_id__: Identifier of the account
 
 ```js
-people.list("b3ebe711-755e-4a91-b8d2-0cc028827bcf", options, callback);
+people.all("b3ebe711-755e-4a91-b8d2-0cc028827bcf", options, callback);
 ```
 
 ### Conversations api
@@ -196,7 +196,7 @@ The following arguments are required:
  * __account_id__: Identifier of the account
 
 ```js
-conversations.list("b3ebe711-755e-4a91-b8d2-0cc028827bcf", "false", options, callback);
+conversations.all("b3ebe711-755e-4a91-b8d2-0cc028827bcf", "false", options, callback);
 ```
 
 ##### Create a conversation (POST /accounts/:account_id/conversations)
